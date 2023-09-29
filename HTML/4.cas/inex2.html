@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <form action="./../5.cas/index.html" target="_blank">
+        <label for="username">Unesite username</label>
+        <input
+          type="test"
+          name="username"
+          id="username"
+          placeholder="username"
+          required
+        />
+        <br />
+        <label for="email">Unesite svoj email</label>
+        <input type="email" name="email" id="email" placeholder="@gmail.com" />
+        <br />
+        <label for="email">Unesite svoju lozinku</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="password"
+          required
+        />
+        <br />
+        <label for="age">Unesite broj godina</label>
+        <input
+          type="number"
+          name="age"
+          id="age"
+          placeholder="age"
+          min="18"
+          maax="100"
+          required
+          stop="2"
+        />
+        <br />
+        <label for="birthdate">Unesite datum rodjenja</label>
+        <input
+          type="date"
+          name="birthdate"
+          id="burthdate"
+          min="1900-01-01"
+          max="2020-01-01"
+          required
+        />
+        <br />
+        <p>Oznacite vase omiljeno voce</p>
+        <label>Jagode</label>
+        <input type="checkbox" name="Jagode" id="checkbox" checked />
+        <br />
+        <label>Banana</label>
+        <input type="checkbox" name="Banana" id="checkbox" />
+        <br />
+        <label>Ananas</label>
+        <input type="checkbox" name="Ananas" id="checkbox" />
+        <br />
+        <p>Oznacite pol</p>
+        <label for="m">M</label>
+        <input type="radio" name="pol" id="m" value="m" />
+        <label for="z">Z</label>
+        <input type="radio" name="pol" id="z" value="z" />
+        <br />
+        <label for="bio">Unesite svoju biografiju</label>
+        <textarea name="bio" id="bio" cols="15" rows="1" maxlength="=10">
+teks..</textarea
+        >
+        <br />
+        <label for="phone">Vas broj telefona</label>
+        <input type="tel" name="number" id="phone" required />
+        <br />
+        <label for="color">Koj je vasa omiljena boja</label>
+        <input type="color" name="boja" id="color" required />
+        <br />
+        <label for="file">Unesite vas CV obrazac</label>
+        <input type="file" name="CV" id="file" required />
+        <br />
+        <p>Oznacite boju vasih ociju</p>
+        <select name="eywcolor" id="eyecolor">
+          <option value="braon"></option>
+          <option value="plava"></option>
+          <option value="crna"></option>
+          <option value="zelena"></option>
+        </select>
+        <br />
+        <br />
+        <button type="submit">Potvrdi</button>
+        <button type="restart">Restartij</button>
+      </form>
+    </div>
+  </body>
+</html>

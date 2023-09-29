@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <style>
+      /*h1 predstavlja css selektor,sto je zapravo pravilo pomocu kojeg
+      pristupamo html elemtimaza koje zelimo a definisemo stilove*/
+      h1 {
+        /*color predstavlja css property (svojstvo)*/
+        color: red;
+      }
+      p {
+        /*font-size:16px,standardna velicina slova je 16 piksela*/
+        font-size: 10px;
+        text-indent: 25px;
+        text-align: right;
+        text-align: center; /*primenice se poslednje definisano svojstvo*/
+        text-align: justify;
+        text-align-last: right;
+        /*text-transform: uppercase;*/
+        /*text-transform: capitalize;*/
+        /*text-transform: none;*/
+        text-transform: lowercase;
+      }
+      ul {
+        list-style-position: inside;
+      }
+      .prvi {
+        background-color: blueviolet;
+        width: 400px;
+        height: 250px;
+      }
+      /*id ima prioritet u odnosu na klasu kad se radi o promeni stilova*/
+      /*obicno cemo koristiti id ako zelimo da definisemo neki jedinstveni elment.*/
+      #naslov {
+        color: rgb(22, 59, 100);
+      }
+      body {
+        background-color: yellowgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <!--klasi "prvi" pristupamo sa prefeksom . u css_u-->
+    <div class="prvi">
+      <h1>Danas radimo CSS(Cascadin style sheets)</h1>
+      <!--Jezik za definsanje jezika na nasoj stranici-->
+      <!--id_u "naslov" pristupamo sa prefeksom # u css_u-->
+
+      <h2 id="naslov">CSS mozemo koristiti na vise nacina</h2>
+      <ul>
+        <li style="color: blue; text-align: center">inline stilovi</li>
+        <li>stilovi definisani unutar head taga</li>
+        <li>eksterni stilovi</li>
+      </ul>
+    </div>
+    <div>
+      <h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iure
+        similique ipsam, ducimus nam sunt animi, nisi possimus quos totam, est
+        error voluptatum obcaecati?
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sapiente
+        rem aliquid itaque quas possimus tempora voluptatem magni labore dolor a
+        met vel, exercitationem iure. Nulla, maxime! Ad nobis quisquam itaque
+        cum , consectetur iusto nisi excepturi sint. Neque quibusdam deleniti
+        nihil t otam ea, earum repellat error dolor vero corporis, cumque eos
+        beatae mini ma exercitationem necessitatibus ipsum ut! Quae autem ipsa,
+        eveniet dolor placeat ipsum fugit officiis nemo fugiat ad sunt saepe
+        officia aliquid cup
+      </p>
+    </div>
+  </body>
+</html>

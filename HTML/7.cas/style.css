@@ -1,0 +1,33 @@
+body {
+  background-color: lightblue;
+}
+.main {
+  height: 500px;
+  width: 500px;
+  background-color: blueviolet;
+  /*border: 3px double green;
+  border: 3px solid green;
+  border: 3px dotted green;*/
+  border: 3px dashed green;
+  margin-top: 30px; /*margina u odnosu na gornjnu stranu*/
+  /*margin: 50px;*/
+  margin-right: 40px; /*margina u odnosu na desnu stranu*/
+  margin-bottom: 70px; /* margina u odnosu na donju stranu*/
+  margin-left: 15px; /* margina u odnosu na levu stranu*/
+  margin: 50px 21px 78px 1px; /*top right bottom left*/
+  margin: 50px 20px; /*top&bottom right&left*/
+  margin: 50px 100px 42px; /*top right&left bottom*/
+  margin: 30px auto; /* centrira*/
+  padding: 10px 25px;
+  border-radius: 10px;
+  border-radius: 10px 5px 15px 0px;
+  border-bottom-left-radius: 10px;
+}
+.main2 {
+  /*height: 250px;
+  width: 320px;*/
+  background-color: rgb(43, 57, 61);
+}
+.main p {
+  text-align: justify;
+}

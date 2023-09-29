@@ -1,0 +1,65 @@
+.main {
+  background-color: aqua;
+  height: 500px;
+  width: 300px;
+  margin: 30px auto;
+  border-radius: 10px;
+  margin: 30px 30px 30px 30px;
+  /*overflow: visible; defaultna vrednost*/
+  /*overflow: hidden; skrivena vrednost*/
+  /*overflow: scroll; dodaje skrolbar u svakom slucaju */
+  /*overflow: auto;  dodaje skrolbar ako je nepotrebno*/
+  /*display: block; */
+  display: inline-block;
+  box-shadow: 3px 3px 12px rgb(199, 27, 170), -3px -3px 12px rgb(199, 27, 170);
+}
+
+.main:nth-of-type(2) {
+  display: none;
+}
+
+.main2 {
+  /*visibility: hidden; sakriva element i prostor ostaje rezervisna za taj elment*/
+  /*display: none; sakriva element i prostor moze biti zamenjen sledecim elementom */
+  display: none;
+}
+/* Block level elementi: */
+/* <h1><h2><h3><h4><h5><h6>*/
+/* <p> */
+/* <div><main><artickle><section><header><footer> */
+/* <al><ul><li> */
+
+/* Inline html elementi: */
+/* <input><a><spam><bottom><textarea> */
+/* <img> tag je inline-block elment- to su elementi koji dozvoljavaju da im se podesi sirina
+i visina za razliku od inline elemenata */
+/* <img><> */
+img {
+  height: 200px;
+  width: 300px;
+  border-radius: 10px 10px 0px 0px;
+}
+img:hover {
+  content: url(./../../HTML/3.cas/pexels-photo-268533.webp);
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  text-transform: capitalize;
+}
+p {
+  text-indent: 25px;
+  margin: 10px 20px 20px 20px;
+  text-align: justify;
+}
+p:hover {
+  content: url(./../../HTML/3.cas/pexels-photo-268533.webp);
+}
+.main2 {
+  margin: 30px;
+}
+body :hover {
+  background-color: brown;
+}

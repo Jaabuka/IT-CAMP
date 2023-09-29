@@ -1,0 +1,30 @@
+.first {
+  width: 250px;
+  height: 400px;
+  background-image: url(./../3.cas/pexels-photo-268533.webp);
+  background-repeat: no-repeat;
+  /*background-size: contain; razvlaci se fotografija dok nestognemo do prve ivice*/
+  /*background-size: cover; razvlaci fotografiju kako bi prekrila ceo kontejner(gubi se deo fotografija)*/
+  background-size: 300px 300px;
+  overflow: auto;
+}
+.first h1,
+p {
+  color: gold;
+}
+.first h1 {
+  text-align: center;
+}
+.first p {
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.first:nth-of-type(2) {
+  box-sizing: border-box;
+  padding: 15x;
+  background-position: ;
+}
