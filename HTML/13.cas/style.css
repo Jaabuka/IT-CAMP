@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap");
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(rgba(82, 59, 136, 0.267), green, blue);
+  font-family: "Rammetto One", sans-serif;
+}
+/*rgba cini nasu pozadinu prozirno u idredjenoj meri-zavisi od a parametra(0-1)*/
+.main {
+  background-color: rgba(80, 59, 136, 0.521);
+  /*opaciti cini ceo elemnt prozirnim(sa sadrzajem)*/
+  opacity: 0.5;
+  height: 500px;
+  width: 500px;
+}
+img {
+  width: 1000px;
+  height: 400px;
+  float: left;
+  margin-right: 15px;
+}
+.box1 {
+  width: 400px;
+  height: 400px;
+  background-color: blueviolet;
+  float: left;
+  opacity: 0.8;
+}
+.box2 {
+  width: 500px;
+  height: 700px;
+  float: left;
+  background-color: yellowgreen;
+}
+.paragraf {
+  clear: both;
+}

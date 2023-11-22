@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header > h1 {
+  text-align: center;
+  background-color: aqua;
+  color: brown;
+}
+.Conteiner {
+  border: 0.5rem solid gray;
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: top;
+}
+.Conteiner2 {
+  border: 0.5rem solid rgb(161, 156, 156);
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box1 {
+  background-color: aqua;
+  height: 220px;
+  width: 140px;
+}
+.Conteiner2 :nth-last-of-type(2) {
+  background-color: blueviolet;
+}
+.Conteiner2 :nth-last-of-type(3) {
+  background-color: rgb(155, 230, 177);
+}
+.box2 {
+  background-color: yellow;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  position: relative;
+  top: 0px;
+  left: 30px;
+}
+.box1 > h4 {
+  text-align: center;
+}
+.box1 > p {
+  text-align: justify;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.br {
+  position: relative;
+  bottom: 0px;
+  left: 50px;
+}

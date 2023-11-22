@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main {
+  background-color: aqua;
+  color: beige;
+  font-size: 2rem;
+}
+/*@media (max-width: 500px) {
+  .main {
+    color: blue;
+    font-size: 3rem;
+    background-color: rgb(109, 109, 68);
+  }
+}
+/*@media print{
+  .main {
+    color: blue;
+    font-size: 3rem;
+    background-color: rgb(109, 109, 68);
+  }
+}*/
+/*@media (orientation: landscape) {
+  .main {
+    color: blue;
+    font-size: 1rem;
+    background-color: rgb(109, 109, 68);
+  }
+}
+@media (max-width: 500px), (min-width: 800px) {
+  .main {
+    color: blue;
+    font-size: 1rem;
+    background-color: rgb(109, 109, 68);
+  }
+}*/
+@media (min-width: 500px) and (max-width: 800px) {
+  .main {
+    color: blue;
+    font-size: 1rem;
+    background-color: rgb(109, 109, 68);
+  }
+}
+@media (max-width: 500px) {
+  .main {
+    color: rgb(0, 255, 170);
+    font-size: 1rem;
+    background-color: rgb(68, 82, 109);
+  }
+}

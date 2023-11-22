@@ -1,0 +1,58 @@
+p {
+  font-family: Noto Sans NKO Unjoined;
+}
+.first {
+  background-color: blue;
+  width: 500px;
+  height: 500px;
+}
+.secomd {
+  background-color: violet;
+  width: 500px;
+  height: 500px;
+}
+.treci {
+  background-color: violet;
+  width: 500px;
+  height: 500px;
+} /*Stilovi za svaki p tag koji se nalazi u .treci kontejneru
+.treci p {
+  color: blueviolet;
+}*/
+/*Stilovi za svaki p tag koji je direktno child element .treci kontejneru*/
+.treci > p {
+  color: blueviolet;
+} /*Stilovi za prvi p tag koji se nalazi van .treci kontejnera*/
+.treci + p {
+  color: blueviolet;
+}
+.cetvrti {
+  background-color: violet;
+  width: 500px;
+  height: 500px;
+}
+div {
+  display: inline-block;
+}
+.instegram {
+  color: chartreuse;
+}
+.ikona {
+  text-align: center;
+  font-size: 50px;
+}
+a {
+  color: green;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 100;
+}
+a:hover {
+  background-color: black;
+}
+a:visited {
+  color: rgb(rgb(238, 255, 0), green, blue);
+}
+a:active {
+  color: aqua;
+}

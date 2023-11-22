@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container {
+  /*
+  width: 300px;
+  height: 400px;
+  width: 20cm;
+  height: 20cm;
+  width: 20mm;
+  height: 20mm;
+  width: 5in;
+  height: 5in;
+  width: 500pt;
+  height: 500pt;
+  width: 50pc;
+  height: 50pc;
+  width: 50vh;
+  height: 50vh;*/
+  width: 50vmin;
+  height: 50vmin;
+  background-color: antiquewhite;
+  border: 1px solid;
+  float: left;
+  font-size: 10px;
+}
+/*
+.container:nth-of-type(2),
+.container:nth-of-type(4) {
+  background-color: aquamarine;
+}
+Stilovi za svaki parni eleent
+.container:nth-of-type(even) {
+  background-color: aquamarine;
+}
+Stilovi za svaki neparni eleent
+.container:nth-of-type(odd) {
+  background-color: aquamarine;
+}
+Stilovi za svaki trci element*/
+.container:nth-of-type(3n) {
+  background-color: aquamarine;
+}
+.container:nth-last-of-type(1) {
+  background-color: tomato;
+}
+.container p {
+  /*font-size: 2em;
+  font-size: 2rem;*/
+  font-size: 2vw;
+}
+.second {
+  background-color: blueviolet;
+  height: 80%;
+  width: 50%;
+}
+/*apsplutne velicine:
+ cm-centimetri
+ mm-milimetri
+ in-inches
+ pt-points(1pt=1/72in
+ pc-picas(1pc=12pt*/
+
+/*Relativne velicine:
+ em-relativna u odnosu na font sajz elemente
+ rem-relativna u odnosu na font-size root elemenata
+ vw-relativna je 1% u donosu na nasu sirinu ekrana
+ vh-relativna je 1% u donosu na nasu visinu ekrana
+ vmin-relativna je 1% u odnosu na najmanju dimenziju
+ vmax-relativna je 1% u odnosu na najvecu dimenziju
+ */

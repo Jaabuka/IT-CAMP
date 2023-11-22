@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.parent {
+  background-color: aqua;
+  height: 200vh;
+  margin: 20px;
+  padding-top: 15px;
+  position: relative;
+}
+.child1 {
+  background-color: rgb(122, 61, 141);
+  height: 50px;
+  /*position: static;  defoltna vrednost za position
+  position: relative;
+  top: 40px;
+  left: 20px;*/
+  position: absolute;
+  left: 100px;
+  bottom: 50px;
+}
+.child2 {
+  background-color: rgb(145, 45, 67);
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  z-index: 10;
+}
+.child3 {
+  background-color: rgb(12, 20, 6);
+  height: 50px;
+  position: sticky;
+  top: 20px;
+  z-index: 10;
+}
+.child4 {
+  background-color: rgb(225, 241, 153);
+  height: 50px;
+}

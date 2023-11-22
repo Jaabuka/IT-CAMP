@@ -1,0 +1,44 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.parent {
+  margin: auto;
+  background-color: blueviolet;
+  /*width: 500px;*/
+  height: 500px;
+}
+.child {
+  width: 50%;
+  height: 50%;
+  background-color: brown;
+  transition: transform 1s ease-in-out 0.1s;
+}
+.parent:hover .child {
+  /*transform: translate(100%, 100%);*/
+  animation: left-to-right 1s ease-in-out 0.1s forwards infinite alternate;
+  /*animation-play-state: paused;*/
+}
+@keyframes left-to-right {
+  20% {
+    transform: translate(100%, 0);
+    background-color: rgba(23, 68, 53, 0.486);
+  }
+  40% {
+    transform: translate(50%, 50%);
+    background-color: rgba(23, 68, 53, 0.486);
+  }
+  60% {
+    transform: translate(100%, 100%);
+    background-color: rgba(23, 68, 53, 0.486);
+  }
+  80% {
+    transform: translate(0%, 100%);
+    background-color: rgba(23, 68, 53, 0.486);
+  }
+  100% {
+    transform: translate(0, 100%);
+    background-color: rgba(23, 68, 53, 0.486);
+  }
+}

@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Gruppo&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  height: 1000vh;
+}
+header {
+  height: 80px;
+  width: 100vw;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 170px 500px 170px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+}
+header > img {
+  height: 35px;
+  width: 170px;
+}
+header > a:nth-of-type(1) {
+  margin-left: 30px;
+}
+.box1 {
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  justify-content: space-evenly;
+  grid-gap: 50px;
+}
+.box1 > a {
+  text-decoration: none;
+  color: white;
+}
+.box2 {
+  margin-right: 13px;
+  display: grid;
+  grid-gap: 27px;
+  grid-template-columns: repeat(4, 10px);
+}
+.box2 > a {
+  transition: all 10s;
+}
+a:hover i {
+  transform: rotateY(180deg);
+}
+.carousel-fade {
+  height: 180vh;
+}
+.d-block {
+  height: 180vh;
+}
+.carousel-caption > h1 {
+  font-family: "Gruppo", serif;
+  font-size: 80px;
+  margin-top: -10px;
+}
+.carousel-fade {
+  margin-bottom: -35px;
+}
+.box3 {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+.box4 {
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  grid-template-rows: repeat(1, 450px);
+}
+.box4 > img {
+  height: 385px;
+  width: 350px;
+  margin-top: 15px;
+}
+.ch1 {
+  padding-top: 10px;
+}
+.ch1 > p {
+  padding-right: 30px;
+}
+.ch1 > h1 {
+  font-family: "Gruppo", serif;
+  font-size: 50px;
+}
+.ch1 > p {
+  color: grey;
+}
+.ch1 > img {
+  margin-top: 50px;
+}
+.ch2 {
+  display: grid;
+  grid-template-rows: repeat(4);
+  justify-items: start;
+  padding-left: 20px;
+  padding-right: 25px;
+}
+.ch2 > button {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  width: 125px;
+  height: 50px;
+}
+.ch2 > p {
+  color: rgb(58, 57, 57);
+  margin-top: -15px;
+  font-size: 19px;
+}
+.box5 {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(2, 50%);
+  height: 200vh;
+  width: 100vw;
+  grid-gap: 0px;
+  transition: all 1s;
+  margin-top: -200vh;
+}
+.box7 {
+  height: 200vh;
+  width: 100vw;
+}
+.box6 {
+  height: 200vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(2, 50%);
+  position: relative;
+  top: 0px;
+  z-index: 2;
+  /* display: none; */
+  transition: all 5s;
+}
+.ch {
+  height: 100vh;
+  width: 100%;
+}
+.ch > img {
+  display: inline-block;
+  height: 100vh;
+  width: 100%;
+}
+.ch3 {
+  height: 100vh;
+  width: 100%;
+}
+/* .ch3:nth-of-type(1):hover .ch4 {
+  visibility: visible;
+}
+.ch3:nth-of-type(1):hover .ch5 {
+  visibility: visible;
+}
+.ch3:nth-of-type(2):hover .ch4 {
+  visibility: visible;
+}
+.ch3:nth-of-type(2):hover .ch5 {
+  visibility: visible;
+}
+.ch3:nth-of-type(3):hover .ch4 {
+  visibility: visible;
+}
+.ch3:nth-of-type(3):hover .ch5 {
+  visibility: visible;
+}
+.ch3:nth-of-type(4):hover .ch4 {
+  visibility: visible;
+}
+.ch3:nth-of-type(4):hover .ch5 {
+  visibility: visible;
+}
+.ch3:nth-of-type(5):hover .ch4 {
+  visibility: visible;
+}
+.ch3:nth-of-type(5):hover .ch5 {
+  visibility: visible;
+}
+.ch3:nth-of-type(6):hover .ch4 {
+  visibility: visible;
+}
+.ch3:nth-of-type(6):hover .ch5 {
+  visibility: visible;
+}
+.ch3:nth-of-type(7):hover .ch4 {
+  visibility: visible;
+}
+.ch3:nth-of-type(7):hover .ch5 {
+  visibility: visible;
+}
+.ch3:nth-of-type(8):hover .ch4 {
+  visibility: visible;
+}
+.ch3:nth-of-type(8):hover .ch5 {
+  visibility: visible;
+} */
+.ch4 {
+  width: 100%;
+  height: 80%;
+  box-shadow: 0px 120px rgba(49, 49, 49, 0.568);
+  /* visibility: hidden; */
+}
+.ch5 {
+  width: 100%;
+  height: 20%;
+  display: grid;
+  align-items: end;
+  justify-items: center;
+  color: white;
+  /* visibility: hidden; */
+}
+.ch5 > h4 {
+  margin-bottom: 25px;
+}
+.box8 {
+  height: 150vh;
+  width: 100vw;
+  display: grid;
+}
+.box9 {
+  height: 80%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-template-rows: repeat(2, 100%);
+}
+img:nth-of-type(1):hover .ch4 {
+  transform: translateX(300%);
+}
+img:nth-of-type(1):hover .ch5 {
+  transform: translateX(0);
+}
+.ch3:nth-of-type(2):hover .ch4 {
+  transform: translateX(100%);
+}
+.ch3:nth-of-type(2):hover .ch5 {
+  transform: translateX(100%);
+}
+.ch3:nth-of-type(3):hover .ch4 {
+  transform: translateX(200%);
+}
+.ch3:nth-of-type(3):hover .ch5 {
+  transform: translateX(200%);
+}
+.ch3:nth-of-type(4):hover .ch4 {
+  transform: translateX(300%);
+}
+.ch3:nth-of-type(4):hover .ch5 {
+  transform: translateX(300%);
+}
+.ch3:nth-of-type(5):hover .ch4 {
+  transform: translate(0, 100%);
+}
+.ch3:nth-of-type(5):hover .ch5 {
+  transform: translate(0, 100%);
+}
+.ch3:nth-of-type(6):hover .ch4 {
+  transform: translate(100%, 100%);
+}
+.ch3:nth-of-type(6):hover .ch5 {
+  transform: translate(100%, 100%);
+}
+.ch3:nth-of-type(7):hover .ch4 {
+  transform: translateX(200%, 100%);
+}
+.ch3:nth-of-type(7):hover .ch5 {
+  transform: translateX(200%, 100%);
+}
+.ch3:nth-of-type(8):hover .ch4 {
+  transform: translateX(300%, 100%);
+}
+.ch3:nth-of-type(8):hover .ch5 {
+  transform: translateX(300%, 100%);
+}

@@ -1,0 +1,67 @@
+.main {
+  background-color: white;
+  height: 300px;
+  width: 260px;
+  border-radius: 7px;
+  margin: 150px auto;
+  box-shadow: 4px 4px rgb(207, 203, 203);
+}
+.main2 {
+  background-color: white;
+  height: 200px;
+  width: 260px;
+  border-radius: 7px;
+  margin: 150px auto;
+  box-shadow: 4px 4px rgb(207, 203, 203);
+}
+.main3 {
+  background-color: white;
+  height: 50px;
+  width: 340px;
+  border-radius: 7px;
+  margin: 80px auto;
+  box-shadow: 4px 4px rgb(207, 203, 203);
+}
+
+.dekoracija {
+  height: 30px;
+  width: 230px;
+  margin-left: 12px;
+  margin-top: 8px;
+  border-color: rgb(228, 218, 218);
+  border-radius: 7px;
+}
+.dekoracija2 {
+  height: 25px;
+  width: 30px;
+  margin-left: 12px;
+  margin-top: 10px;
+  border-color: rgb(228, 218, 218);
+  border-radius: 7px;
+}
+.pomeri {
+  margin-top: 20px;
+  margin-bottom: -5px;
+}
+button {
+  height: 35px;
+  width: 240px;
+  margin-left: 10px;
+  margin-top: 8px;
+  border-radius: 7px;
+  background-color: green;
+  color: white;
+}
+body {
+  background-color: lightgray;
+}
+p {
+  text-align: center;
+}
+.povecaj {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-top: -10px;
+  display: inline-block;
+}

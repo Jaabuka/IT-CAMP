@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: aquamarine;
+}
+.main {
+  width: 500px;
+  height: 500px;
+  background: wheat;
+}
+.main p {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}

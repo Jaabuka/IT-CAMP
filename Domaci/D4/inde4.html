@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Napravite novi nalog</title>
+  </head>
+  <body>
+    <div class="main">
+      <form action="./index.html" target="_blank">
+        <label for="username"></label>
+        <input
+          class="dekoracija"
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Korisnicko ime"
+          required
+        /><br />
+        <label for="password"></label>
+        <input
+          class="dekoracija"
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Lozinka"
+          required
+        />
+        <br />
+        <label for="email"></label>
+        <input
+          class="dekoracija"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="@gmail"
+          required
+        /><br />
+        <center>
+          <label class="pomeri" for="m">M</label>
+          <input class="pomeri" type="radio" name="pol" id="m" value="m" />
+          <label class="pomeri" for="z">Z</label>
+          <input class="pomeri" type="radio" name="pol" id="z" value="z" />
+        </center>
+        <br />
+        <label for="age"></label>
+        <input
+          class="dekoracija"
+          type="number"
+          name="age"
+          id="age"
+          placeholder="godine"
+          required
+        />
+        <br />
+        <button type="submit">Napravite nalog</button>
+      </form>
+    </div>
+  </body>
+</html>
