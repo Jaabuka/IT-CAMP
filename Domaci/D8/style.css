@@ -1,0 +1,228 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  height: 110px;
+  width: 100vw;
+}
+.box1 {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(1, 30px);
+  background-color: rgb(11, 11, 65);
+  grid-gap: 7px;
+  z-index: 3;
+}
+.bux1 > img {
+  height: 100%;
+  width: 70%;
+}
+.bux1 * {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bux2 {
+  color: white;
+  display: grid;
+  justify-items: center;
+}
+.bux3 {
+  display: grid;
+  grid-template-rows: 30px;
+  grid-template-columns: 5% 50%;
+  justify-content: end;
+}
+.bux3 > a {
+  text-decoration: none;
+  color: white;
+}
+i:nth-of-type(4):active .box1 {
+  visibility: hidden;
+}
+.ch {
+  display: grid;
+  grid-template-columns: 10% 40%;
+  grid-template-rows: 30px;
+  justify-content: center;
+  background-color: rgb(22, 22, 97);
+}
+.ch > i {
+  margin-top: 5px;
+}
+.ch > p {
+  width: 120px;
+  height: 30px;
+}
+.box2 {
+  height: 80px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 100%;
+  background-color: rgb(46, 46, 117);
+  opacity: 0.9;
+  z-index: 3;
+}
+.ch1 {
+  color: white;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.ch2 {
+  display: grid;
+  grid-template-columns: repeat(8, 10%);
+  grid-template-rows: 40%;
+  align-content: center;
+  justify-content: center;
+  grid-gap: 10pxs;
+}
+.ch2 > a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.ch2 > .btn-group {
+  margin-left: -10px;
+}
+a:nth-of-type(7) {
+  border: 2px solid aqua;
+  border-radius: 50px;
+}
+.box3 {
+  height: 70vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 100%;
+  background-color: rgb(98, 85, 189);
+  align-items: center;
+  justify-items: center;
+}
+
+.About-us > img {
+  height: 80%;
+  width: 80%;
+}
+.About-us:nth-of-type(1) {
+  padding-left: 140px;
+  color: white;
+}
+.About-us:nth-of-type(1) > h1 {
+  margin-bottom: 40px;
+}
+.About-us:nth-of-type(1) > h4 {
+  color: rgb(175, 168, 168);
+}
+.usch > a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.usch > a:nth-of-type(1) {
+  background-color: rgb(84, 180, 224);
+  border-radius: 50px;
+}
+.usch {
+  display: grid;
+  grid-template-columns: repeat(2, 20%);
+  grid-template-rows: 30px;
+  margin-top: 40px;
+}
+.box4 {
+  height: 70px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(6, 8%);
+  grid-template-rows: 100%;
+  grid-gap: 60px;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+}
+.box4 > img {
+  height: 60%;
+  width: 100%;
+  transition: transform 2s;
+  padding-top: 5px;
+}
+.box4 > img:hover {
+  transform: scale(1.2);
+}
+.box5 {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 80%;
+  grid-template-rows: repeat(2, 30%);
+  align-content: center;
+  justify-content: center;
+}
+.bux4 {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+.bux4 > h1 {
+  color: rgb(39, 39, 90);
+  font-weight: bold;
+}
+.bix3 > p {
+  display: inline;
+  color: gray;
+}
+.bix3 > p:nth-of-type(2) {
+  color: lightseagreen;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+.bux5 {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 100%;
+  color: gray;
+}
+.bix2 > button {
+  height: 40px;
+  width: 140px;
+  color: aqua;
+  border: 1px solid aqua;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+}
+.box6 {
+  height: 120vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  grid-template-rows: 80%;
+  align-content: center;
+  justify-content: center;
+  background-color: rgb(241, 237, 237);
+}
+.bux7 {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding-left: 130px;
+  padding-bottom: 140px;
+}
+.bux7 > img {
+  width: 110%;
+  height: 90%;
+}
+.bux6 > h1 {
+  color: rgb(39, 39, 90);
+}
+.bux6 > p {
+  color: gray;
+}
+.btn-primary {
+  background-color: white;
+  color: #0d6efd;
+  border: none;
+}
