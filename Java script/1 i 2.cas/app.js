@@ -22,17 +22,17 @@ console.log(typeof 25);
 console.log(BigInt(3787823617268497820482342709345923));
 console.log(typeof BigInt(3787823617268497820482342709345923));
 
-// 1.4. Bollean - clogicki intitet koji ima dve vrednosti true i false.
+// 1.4. Boolean - logicki entitet koji ima dve vrednosti true i false.
 console.log(true);
 console.log(typeof true);
 
-// 1.5. underfind - Promenljiva koja je definisana,ali joj nije dodeljena vrednost,ima vrednost undefined i top takodje undefind
+// 1.5. undefind - Promenljiva koja je definisana,ali joj nije dodeljena vrednost,ima vrednost undefined i top takodje undefind
 
 var a = 5;
 console.log(a);
 console.log(typeof a);
 
-// 1.6. null - Predstavlja nekorrktnu vrednost ili vrednost koja (za sada) ne postoji.
+// 1.6. null - Predstavlja nekorktnu vrednost ili vrednost koja (za sada) ne postoji.
 
 var a = null;
 console.log(a);
@@ -49,10 +49,10 @@ console.log(typeof b);
 // 2.  Neprimitivni tipovi podataka (referentni)
 
 // Za skladistenje vise vrednosti ili kompletnih vrednosti se koriste neprimitivni tipovi podataka.
-// Svka promenljiva koja nije primitivnog tipa je tipa Object u JavaScriptu.
+// Svaka promenljiva koja nije primitivnog tipa je tipa Object u JavaScriptu.
 // Objekti se koriste za skladistenje neke kolekcije podataka.
 
-// 2.1. Arraz (Niz) - predstavlja strukturu podataka za skladistenje vise vrednosti.
+// 2.1. Array (Niz) - predstavlja strukturu podataka za skladistenje vise vrednosti.
 // Elementi niza ne moraju biti istog tipa.
 
 niz = ["Demir", 18, true];

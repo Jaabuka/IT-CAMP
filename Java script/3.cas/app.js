@@ -28,7 +28,7 @@ console.log(typeof paragraph);
 // NasBrat="Demir" lover camel case
 NasBrat = "Demir"; // upper camel case
 
-// Napomena. U nazivu promenljive se moze naci broj, ali ona nesme pocinjati brojrm.
+// Napomena. U nazivu promenljive se moze naci broj, ali ona nesme pocinjati brojem.
 
 amir = "Amir je odlican ucenik duge godine srednje skole";
 Amir = "Amir je dovoljan ucenik duge godine srednje skole";

@@ -1,5 +1,5 @@
 // while petlja se koristi za iteraciju kroz neki objekat.
-// definise se drugacije nego fro petlja.
+// definise se drugacije nego for petlja.
 
 // vreme = "Suncano";
 // while (vreme === "Suncano") {
@@ -42,10 +42,29 @@ do {
 
 // Traziti unos brojeva brojeva od korisnika sve dok ne unese nulu:
 let e = +prompt("Unesite broj");
-while (e != 0) {
+while (e !== 0) {
   e = +prompt("Unesite broj");
 }
 
-// Domaci"
-// 1. Ispisati sve brojeve od 1 do 10 koji su parni
-// 2. Korisnik unosi dva broja
+// Domaci:
+// 1.
+// Ispisati sve brojeve od 1 do 10 koji su parni
+
+let b = 2;
+while (b <= 10 && b % 2 === 0);
+{
+  console.log(b);
+  b += 2;
+}
+
+// 2.
+// Korisnik unosi 2 broja:
+// Na osnovu toga koji je broj manji, iteracija se vrsi od njega do veceg broja.
+// Ispisuju se brojevi od manjeg ka vecem.
+const g = +prompt("Unesite prvi broj ");
+const c = +prompt("Unesite drugi broj ");
+while (g < c) {
+  for (let i = g; i <= c; i++) {
+    console.log(i);
+  }
+}

@@ -7,7 +7,7 @@ console.log(x);
 x = 14;
 console.log(x);
 
-x = 15;
+var x = 15;
 console.log(x);
 
 // let i const nam obezbedjuju Black Scope.

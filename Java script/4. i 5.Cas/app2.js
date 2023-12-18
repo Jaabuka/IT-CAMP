@@ -88,7 +88,7 @@ console.log(ime + brojGodina);
 
 console.log("55" + 44);
 // Ako string moze da se pretvori u broj JavaScript ce izvrsiti to pretvaranje,pa
-// rek onda osuzimanje ili biloo kou drugu aritmeticku operaciju osim sabiranje.
+// tek onda oduzimanje ili bilo koju drugu aritmeticku operaciju osim sabiranje.
 console.log("55" - 44); // NaN - Not a Number predstavlja neokretan broj i njegov tip je number
 console.log(typeof ("55a" - 44));
 console.log(5 * "3");
